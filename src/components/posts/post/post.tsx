@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {IPosts} from "../../../../models/IPosts";
+import {IPosts} from "../../../models/IPosts";
 
 interface IPostProps{
     post: IPosts

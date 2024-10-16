@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useState} from 'react';
-import {getPostsByUserId} from "../../../services/postService";
-import {IPosts} from "../../../models/IPosts";
-import {IUser} from "../../../models/IUser";
+import {getPostsByUserId} from "../../services/postService";
+import {IPosts} from "../../models/IPosts";
+import {IUser} from "../../models/IUser";
 import Post from "./post/post";
 
 interface IUserProp{

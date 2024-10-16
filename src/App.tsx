@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Users from "./components/users/users";
 import {IUser} from "./models/IUser";
-import Posts from "./components/users/posts/posts";
+import Posts from "./components/posts/posts";
 
 
 
